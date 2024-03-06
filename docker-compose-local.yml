@@ -7,7 +7,7 @@ services:
       context: ./redis
     image: bion0625/pharmacy-recommendation-redis
     ports:
-      - "6379:6329"
+      - "6379:6379"
   pharmacy-recommendation-database:
     container_name: pharmacy-recommendation-database
     build:
